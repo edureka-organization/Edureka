@@ -2,9 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
-body {
-}
-
 .background {
   background-image: linear-gradient(
     180deg,
