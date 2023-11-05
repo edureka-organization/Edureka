@@ -1,0 +1,34 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+}
+
+.background {
+  background-image: linear-gradient(
+    180deg,
+    rgba(5, 37, 66, 0.64) 0%,
+    rgba(0, 0, 0, 0.64) 100%
+  );
+}
+
+.background-button {
+  background: linear-gradient(
+    210deg,
+    #05c9f4 4.37%,
+    rgba(12, 231, 47, 0.8) 116.14%
+  );
+}
+
+.make-center {
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.make-gradient-text {
+  background: linear-gradient(247deg, #05c9f4 13.01%, #0ce72f 109.9%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
