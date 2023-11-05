@@ -12,7 +12,7 @@ const roboto2 = Roboto({
 
 const Navbar = () => {
   return (
-    <div className="flex justify-between items-center text-white z-10 absolute w-screen mt-8">
+    <div className="flex justify-between items-center text-white z-10 absolute w-screen mt-8 overflow-hidden">
       <p
         className={`${roboto.className} ml-8 text-2xl cursor-pointer`}
         draggable={false}>
